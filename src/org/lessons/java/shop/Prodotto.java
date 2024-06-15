@@ -20,7 +20,7 @@ public class Prodotto {
     // Genera un codice random
     private int generateRandomCode() {
         Random random = new Random();
-        return random.nextInt(Integer.MAX_VALUE);//Genera un numero casuale positivo
+        return random.nextInt(99999999) + 1;//Genera un numero casuale positivo
     }
 
 
